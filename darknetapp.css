@@ -1,0 +1,365 @@
+ /* CSS for the product section */
+    .product {
+      display: flex;
+      align-items: center;
+      border: 0.5px solid #ccc;
+      padding: 10px;
+    }
+
+    .image {
+      flex: 1;
+      max-width: 300px;
+    }
+
+    .image img {
+      width: 100%;
+      height: auto;
+    }
+
+    .details {
+      flex: 1;
+      padding: 0 20px;
+    }
+
+    .title {
+      font-size: 24px;
+      color: #1100ff;
+      font-weight: bold;
+      
+      margin-bottom: 10px;
+    }
+
+    .description {
+      margin-bottom: 10px;
+    }
+
+    .status{
+      font-size: 20px;
+      color: #11ff00;
+    }
+
+    .button {
+      padding: 5px 15px;
+      background-color: #cc0000;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .button:hover {
+      background-color: #990000;
+    }
+    body {
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+    header {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+     h1 {
+        font-size: 1.1rem;
+        color: white;
+        margin-bottom: 5rem;
+      }
+      p {
+        font-size: 1.1rem;
+        color: white;
+        margin-bottom: 0.2rem;
+      }   
+    /* CSS for the product2 section */
+    .product2 {
+      display: flex;
+      align-items: center;
+      border: 0.5px solid #ccc;
+      padding: 10px;
+    }
+
+    .image2 {
+      flex: 1;
+      max-width: 300px;
+    }
+
+    .image2 img {
+      width: 100%;
+      height: auto;
+    }
+
+    .details2 {
+      flex: 1;
+      padding: 0 20px;
+    }
+
+    .title2 {
+      font-size: 24px;
+      color: #1100ff;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .description2 {
+      margin-bottom: 10px;
+    }
+
+    .status2 {
+      font-size: 20px;
+      color: #11ff00;
+    }
+
+    .button2 {
+      padding: 5px 15px;
+      background-color: #cc0000;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .button:hover {
+      background-color: #990000;
+    }
+ /* Slide menu styles */
+        .slide-menu {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 150px;
+            height: 100%;
+            background-image: url('1707059696860.jpg');
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+        .slide-menu a {
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 30px;
+            color: #000000;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .slide-menu a:hover {
+            background-color: #555;
+        }
+
+        .slide-menu .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 30px;
+            cursor: pointer;
+            color: #000000;
+        }
+        /* CSS for open slide menu button */
+        .open-btn {
+            position: fixed;
+            top: 30px;
+            left: 15px;
+            z-index: 9999; /* Ensure it's above other elements */
+            background-color: #000000;
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            font-size: 25px;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.3s ease; /* Smooth transition */
+        }
+        .open-btn:hover {
+            background-color: #0056b3;
+        }
+    /* CSS for the product3 section */
+    .product3 {
+      display: flex;
+      align-items: center;
+      border: 0.5px solid #ccc;
+      padding: 10px;
+    }
+
+    .image3 {
+      flex: 1;
+      max-width: 300px;
+    }
+
+    .image3 img {
+      width: 100%;
+      height: auto;
+    }
+
+    .details3 {
+      flex: 1;
+      padding: 0 20px;
+    }
+
+    .title3 {
+      font-size: 24px;
+      color: #1100ff;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .description3 {
+      margin-bottom: 10px;
+    }
+
+    .status3 {
+      font-size: 20px;
+      color: #11ff00;
+    }
+
+    .button3 {
+      padding: 5px 15px;
+      background-color: #cc0000;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+/* CSS for the product4 section */
+    .product4 {
+      display: flex;
+      align-items: center;
+      border: 0.5px solid #ccc;
+      padding: 10px;
+    }
+
+    .image4 {
+      flex: 1;
+      max-width: 300px;
+    }
+
+    .image4 img {
+      width: 100%;
+      height: auto;
+    }
+
+    .details4 {
+      flex: 1;
+      padding: 0 20px;
+    }
+
+    .title4 {
+      font-size: 24px;
+      color: #1100ff;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .description4 {
+      margin-bottom: 10px;
+    }
+
+    .status4 {
+      font-size: 20px;
+      color: #11ff00;
+    }
+
+    .button4 {
+      padding: 5px 15px;
+      background-color: #cc0000;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    /* CSS for the product5 section */
+    .product5 {
+      display: flex;
+      align-items: center;
+      border: 0.5px solid #ccc;
+      padding: 10px;
+    }
+
+    .image5 {
+      flex: 1;
+      max-width: 300px;
+    }
+
+    .image5 img {
+      width: 100%;
+      height: auto;
+    }
+
+    .details5 {
+      flex: 1;
+      padding: 0 20px;
+    }
+
+    .title5 {
+      font-size: 24px;
+      color: #1100ff;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .description5 {
+      margin-bottom: 10px;
+    }
+
+    .status5 {
+      font-size: 20px;
+      color: #11ff00;
+    }
+
+    .button5 {
+      padding: 5px 15px;
+      background-color: #cc0000;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    /* CSS for the product6 section */
+        .product6 {
+      display: flex;
+      align-items: center;
+      border: 0.5px solid #ccc;
+      padding: 10px;
+    }
+
+    .image6 {
+      flex: 1;
+      max-width: 300px;
+    }
+
+    .image6 img {
+      width: 100%;
+      height: auto;
+    }
+
+    .details6 {
+      flex: 1;
+      padding: 0 20px;
+    }
+
+    .title6 {
+      font-size: 24px;
+      color: #1100ff;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .description6 {
+      margin-bottom: 10px;
+    }
+
+    .status6 {
+      font-size: 20px;
+      color: #11ff00;
+    }
+
+    .button6 {
+      padding: 5px 15px;
+      background-color: #cc0000;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    

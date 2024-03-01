@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Net Videos</title>
+    <link rel="stylesheet" href="darknetvideos.css">
+</head>
+<body>
+    <header>
+        <h1>Dark Net Videos</h1>
+        <p>Explore the depths of the dark web</p>
+    </header>
+
+    <div class="container" id="videoContainer">
+        <!-- Video items will be dynamically added here -->
+    </div>
+    <!-- Slide menu -->
+<div class="slide-menu" id="slideMenu">
+    <a href="#" onclick="navigate('dashboard')">Dashboard</a>
+    <a href="#" onclick="navigate('dark net apps')">Dark Net Apps</a>
+    <a href="#" onclick="navigate('dark net videos')">Dark net videos</a>
+    <a href="#" onclick="navigate('buy')">Buy Miner </a>
+    <span class="close-btn" onclick="closeSlideMenu()">&times;</span>
+</div>
+
+<!-- Button to open slide menu -->
+<button class="open-btn" onclick="openSlideMenu()">☰</button>
+    <script src="darknetvideos.js"></script>
+</body>
+</html>
