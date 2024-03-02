@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Implement navigation logic based on the page parameter
     const pages = {
         'dashboard': 'freeltccoin.html',
-        'dark net apps': 'darknet.html',
+        'dark net apps': 'darknetapp.html',
         'dark net videos': 'darknetvideos.html',
         'buy': 'buyminer.html'
     };
